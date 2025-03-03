@@ -7,7 +7,6 @@ const Home = () => {
   return (
     <main className="min-h-screen bg-[#f1f2f4]">
       <div className="max-w-7xl mx-auto px-4 py-12 md:py-20">
-        {/* Hero Section */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center mb-16">
           <div>
             <h1 className="text-4xl md:text-5xl font-bold text-[#18191c] mb-6 leading-tight">
@@ -18,7 +17,6 @@ const Home = () => {
               Aliquam vitae turpis in diam convallis finibus in at risus. Nullam in scelerisque leo, eget sollicitudin velit vestibulum.
             </p>
             
-            {/* Search Form */}
             <div className="flex flex-col md:flex-row gap-3 p-2 bg-white rounded-lg shadow-sm">
               <div className="flex-1 flex items-center border rounded-md px-4 py-3">
                 <Search className="w-5 h-5 text-[#9199a3] mr-2" />
@@ -33,7 +31,6 @@ const Home = () => {
               </button>
             </div>
             
-            {/* Suggestions */}
             <div className="mt-4 flex flex-wrap items-center gap-2">
               <span className="text-[#9199a3] text-sm">Suggestion:</span>
               <span className="text-[#18191c] text-sm">Designer,</span>
@@ -49,7 +46,6 @@ const Home = () => {
           </div>
         </div>
 
-        {/* Stats Section */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {[
             { count: "1,75,324", label: "Live Job", icon: <Briefcase className="w-6 h-6 text-[#0066ff]" /> },
@@ -65,6 +61,36 @@ const Home = () => {
               </div>
             </div>
           ))}
+        </div>
+      </div>
+
+      <div className="px-12 py-12 md:py-20 bg-white items-center">
+        <h1 className="text-4xl font-semibold mb-8 ">Top Categories</h1>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div>
+            <p className="text-xl uppercase font-semibold hover:text-blue-400 hover:cursor-pointer">marketing</p>
+            <p className="text-gray-400">2000 students enrolled</p>
+        </div>
+        <div>
+            <p className="text-xl uppercase font-semibold hover:text-blue-400 hover:cursor-pointer">marketing</p>
+            <p className="text-gray-400">2000 students enrolled</p>
+        </div>
+        <div>
+            <p className="text-xl uppercase font-semibold hover:text-blue-400 hover:cursor-pointer">marketing</p>
+            <p className="text-gray-400">2000 students enrolled</p>
+        </div>
+        <div>
+            <p className="text-xl uppercase font-semibold hover:text-blue-400 hover:cursor-pointer">marketing</p>
+            <p className="text-gray-400">2000 students enrolled</p>
+        </div>
+        <div>
+            <p className="text-xl uppercase font-semibold hover:text-blue-400 hover:cursor-pointer">marketing</p>
+            <p className="text-gray-400">2000 students enrolled</p>
+        </div>
+        <div>
+            <p className="text-xl uppercase font-semibold hover:text-blue-400 hover:cursor-pointer">marketing</p>
+            <p className="text-gray-400">2000 students enrolled</p>
+        </div>
         </div>
       </div>
     </main>

@@ -20,7 +20,7 @@ function Navbar() {
       <div className="container mx-auto flex items-center justify-between h-16 px-4">
         <div className="flex items-center space-x-8">
           <a href="/" className="font-bold text-xl text-[#18191c]">
-            Jobpilot
+            JobLele
           </a>
 
           <div className="hidden md:flex space-x-6">
