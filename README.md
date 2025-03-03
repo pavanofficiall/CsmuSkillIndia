@@ -1,2 +1,0 @@
-# CsmuSkillIndia
-webethon
