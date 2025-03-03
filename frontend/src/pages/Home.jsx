@@ -2,6 +2,7 @@ import {Image} from "react";
 import React from "react";
 // import { Search, MapPin, Briefcase, Users } from "lucide-react";
 import { Search, MapPin, Briefcase, Users } from "react-feather";
+import Card from "../components/Card";
 
 const Home = () => {
   return (
@@ -93,6 +94,48 @@ const Home = () => {
         </div>
         </div>
       </div>
+
+     <div>  
+        <h1>Trending Cources</h1> 
+      <div className="trending cources flex flex-wrap justify-center gap-4">
+      <Card 
+    imageSrc="https://example.com/web-dev.jpg"
+    title="Web Development"
+    enrolled={1200}
+    price={4.99}
+    originalPrice={6.99}
+    rating={4}
+    reviews={42}
+/>
+      <Card 
+    imageSrc="https://example.com/web-dev.jpg"
+    title="AI Development"
+    enrolled={200}
+    price={2.99}
+    originalPrice={4.99}
+    rating={5}
+    reviews={42}
+/>
+      <Card 
+    imageSrc="https://example.com/web-dev.jpg"
+    title="Blockchain"
+    enrolled={1200}
+    price={4.99}
+    originalPrice={6.99}
+    rating={4}
+    reviews={42}
+/>
+      <Card 
+    imageSrc="https://example.com/web-dev.jpg"
+    title="ML"
+    enrolled={1200}
+    price={4.99}
+    originalPrice={6.99}
+    rating={4}
+    reviews={42}
+/>
+      </div>
+      </div>  
     </main>
   );
 };
